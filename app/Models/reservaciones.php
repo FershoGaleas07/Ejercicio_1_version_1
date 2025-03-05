@@ -11,7 +11,7 @@ class reservaciones extends Model
     use HasFactory;
     use softDeletes;
     protected $fillable = [
-        'fk_cliente',
+
         'fk_cliente',
         'fk_seguro',
         'fk_auto',
